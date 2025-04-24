@@ -1,4 +1,5 @@
 @use "fonts" as *;
+@use "color" as *;
 
 body {
     font-size: 16px;
@@ -23,20 +24,20 @@ body {
         }
         
         .nav-link:hover {
-          color: #0099ff;
+          color: $color-primary;
         }
   
   }
   
   
   .x {
-    color: #0099ff;
+    color: $color-primary;
     font-size: 2rem;
     text-transform: uppercase;
   }
   
   .x-hero{
-    color: #0099ff;
+    color: $color-primary;
     font-size: 2.6rem;
     text-transform: uppercase;
     font-family: $font-primary;
@@ -125,7 +126,7 @@ body {
     font-family: $font-primary;
   
     .x-footer {
-      color: #0099ff;
+      color: $color-primary;
       font-size: 1.8rem;
       text-transform: uppercase;
     }
@@ -142,7 +143,7 @@ body {
     }
   
     .social-icons a:hover {
-      color: #0099ff;
+      color: $color-primary;
     }
   
   }

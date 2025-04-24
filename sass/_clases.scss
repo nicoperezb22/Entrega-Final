@@ -1,5 +1,6 @@
 @use "fonts" as *;
 @use "button" as *;
+@use "color" as *;
 body {
     font-family: $font-secondary, sans-serif;
 }

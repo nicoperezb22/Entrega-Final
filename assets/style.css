@@ -146,7 +146,7 @@ section h2 {
   text-align: center;
   font-family: "Satoshi", sans-serif;
   color: #0099ff;
-  font-family: satoshi;
+  font-family: "Satoshi", sans-serif;
 }
 section h1 {
   color: #0099ff;
@@ -262,22 +262,6 @@ body {
 }
 body h1, body h2, body h3, body h4, body h5, body h6 {
   font-family: "Satoshi", sans-serif, sans-serif;
-}
-@media (max-width: 768px) {
-  .hero-section {
-    padding: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  h1 {
-    font-size: 10px;
-  }
-  p {
-    font-size: 1rem;
-  }
-  .button-entrena {
-    padding: 8px 16px;
-  }
 }
 * {
   margin: 0;

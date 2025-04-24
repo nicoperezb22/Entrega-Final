@@ -1,11 +1,12 @@
 @use "fonts" as *;
+@use "color" as *;
 
 .button-entrena {
     padding: 10px 20px;
     font-size: 1rem;
     border: none;
     border-radius: 5px;
-    background-color: #0099ff;
+    background-color: $color-primary;
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s ease;

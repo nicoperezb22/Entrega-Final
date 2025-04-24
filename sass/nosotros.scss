@@ -1,4 +1,5 @@
 @use "fonts" as *;
+@use "color" as *;
 
 
 section {
@@ -9,12 +10,12 @@ section {
     margin-bottom: 20px;
     text-align: center;
     font-family: $font-primary; ;
-    color: #0099ff;
-    font-family: satoshi;
+    color: $color-primary;
+    font-family: $font-primary;
   }
 
   h1 {
-    color: #0099ff;
+    color: $color-primary;
     font-family: $font-primary;
     font-size: 35px;
   }
@@ -37,7 +38,7 @@ section {
 
 .sedes-section {
   h3 {
-    color: #0099ff;
+    color: $color-primary;
     font-family: $font-primary;
     text-decoration: underline;
     text-align: center;
@@ -59,7 +60,7 @@ section {
 
   button {
   
-    background-color: #0099ff;
+    background-color: $color-primary;
     color: #ffffff;
     font-family: $font-primary;
     font-size: 1rem;
