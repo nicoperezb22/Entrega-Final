@@ -1,143 +1,21 @@
-section {
-  font-family: inter;
-}
-section h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-  text-align: center;
-  font-family: inter;
-}
-section h1 {
-  color: #0099ff;
-  font-family: satoshi;
-}
-section h2 {
-  color: #0099ff;
-  font-family: satoshi;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-section {
-  animation: fadeIn 0.5s ease-in-out;
-}
-
-.sedes-section h3 {
-  color: #0099ff;
-  font-family: satoshi;
-  text-decoration: underline;
-  text-align: center;
-  margin-top: 20px;
-}
-.sedes-section p {
-  text-align: center;
-  font-family: inter;
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-}
-.sedes-section .accordion {
-  background-color: #f9f9f9;
-  border-radius: 10px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
-.sedes-section button {
-  background-color: #0099ff;
-  color: #ffffff;
-  font-family: satoshi;
-  font-size: 1rem;
-}
-
-.contact-section h4 {
-  font-size: 2rem;
-  color: #0099ff;
-  text-align: center;
-  margin-bottom: 20px;
-  font-family: "satoshi";
-  font-weight: bold;
-}
-.contact-section p {
-  font-family: inter;
-  font-weight: bold;
-}
-.contact-section button {
-  padding: 10px 20px;
-  font-size: 1rem;
-  border: none;
-  border-radius: 5px;
-  background-color: #0099ff;
-  color: #fff;
-  transition: background-color 0.3s ease;
-  font-family: "satoshi";
-  font-weight: bold;
-  text-transform: uppercase;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-body {
-  font-family: "Inter", sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Satoshi", sans-serif;
-}
-
-.card {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  padding: 20px;
-  margin: 20px 0;
-  background-color: #fff;
-  transition: all 0.3s ease;
-}
-.card:hover {
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-}
-.card:hover img {
-  transform: scale(1.05);
-}
-.card img {
-  border-radius: 10px;
-  transition: all 0.3s ease;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Satoshi", sans-serif;
-}
-
-body {
-  font-family: "Inter";
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-@font-face {
-  font-family: "satoshi";
-  src: url("/assets/fonts/Satoshi-Bold.otf") format("truetype");
-  font-weight: bold;
-}
 body {
   font-size: 16px;
 }
 
 nav {
-  font-family: "satoshi";
+  font-family: "Satoshi", sans-serif;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
-
-.navbar-brand {
+nav .navbar-brand {
   font-size: 1.8rem;
   font-weight: bold;
   color: #000;
+}
+nav .nav-link {
+  font-size: 1.2rem;
+}
+nav .nav-link:hover {
+  color: #0099ff;
 }
 
 .x {
@@ -150,15 +28,7 @@ nav {
   color: #0099ff;
   font-size: 2.6rem;
   text-transform: uppercase;
-  font-family: "satoshi";
-}
-
-.nav-link {
-  font-size: 1.2rem;
-}
-
-.nav-link:hover {
-  color: #0099ff;
+  font-family: "Satoshi", sans-serif;
 }
 
 main {
@@ -208,42 +78,14 @@ h1 {
   padding: 5px 0px 0px 10px;
   margin-bottom: 20px;
   text-align: center;
-  font-family: inter;
+  font-family: "Inter", sans-serif;
 }
 
 .p-hero {
   font-size: 1.2rem;
   margin-bottom: 20px;
   text-align: center;
-  font-family: inter;
-}
-
-.button-entrena {
-  padding: 10px 20px;
-  font-size: 1rem;
-  border: none;
-  border-radius: 5px;
-  background-color: #0099ff;
-  color: #fff;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  font-family: "satoshi";
-  font-weight: bold;
-  margin-top: 20px;
-  text-transform: uppercase;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  max-width: 300px;
-  text-decoration: none;
-}
-
-.entrena {
-  text-decoration: none;
-  color: #fff;
-}
-
-.button-entrena:hover {
-  background-color: #0056b3;
+  font-family: "Inter", sans-serif;
 }
 
 footer {
@@ -258,21 +100,12 @@ footer {
   font-size: 1rem;
   text-align: center;
   flex-wrap: wrap;
-  font-family: "satoshi";
+  font-family: "Satoshi", sans-serif;
 }
 footer .x-footer {
   color: #0099ff;
   font-size: 1.8rem;
   text-transform: uppercase;
-}
-footer a {
-  color: #0099ff;
-  text-decoration: none;
-  margin: 0 10px;
-  transition: color 0.3s ease;
-}
-footer a:hover {
-  color: #00d4ff;
 }
 footer .social-icons {
   display: flex;
@@ -287,26 +120,176 @@ footer .social-icons a:hover {
   color: #0099ff;
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   .hero-section {
     padding: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
   }
-
-  h1 {
+  .hero-section h1 {
     font-size: 30px;
   }
-
-  p {
+  .hero-section p {
     font-size: 1rem;
   }
-
-  .button-entrena {
+  .hero-section .button-entrena {
     font-size: 0.9rem;
     padding: 8px 16px;
   }
-} */
+}
+section {
+  font-family: "Inter", sans-serif;
+}
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "Satoshi", sans-serif;
+  color: #0099ff;
+  font-family: satoshi;
+}
+section h1 {
+  color: #0099ff;
+  font-family: "Satoshi", sans-serif;
+  font-size: 35px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+section {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.sedes-section h3 {
+  color: #0099ff;
+  font-family: "Satoshi", sans-serif;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 20px;
+}
+.sedes-section p {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.sedes-section .accordion {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.sedes-section button {
+  background-color: #0099ff;
+  color: #ffffff;
+  font-family: "Satoshi", sans-serif;
+  font-size: 1rem;
+}
+
+.button-entrena, body .card-body button, .card button, .contact-section button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #0099ff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: "Satoshi", sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+  text-transform: uppercase;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 300px;
+  text-decoration: none;
+}
+
+.entrena {
+  text-decoration: none;
+  color: #fff;
+}
+
+.button-entrena:hover, body .card-body button:hover, .card button:hover, .contact-section button:hover {
+  background-color: #0056b3;
+}
+
+.contact-section h4 {
+  font-size: 2rem;
+  color: #0099ff;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Satoshi", sans-serif;
+  font-weight: bold;
+}
+.contact-section p {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}
+body {
+  font-family: "Inter", sans-serif, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Satoshi", sans-serif, sans-serif;
+}
+
+.card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+.card:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.card:hover img {
+  transform: scale(1.05);
+}
+.card img {
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+body {
+  font-family: "Inter", sans-serif, sans-serif;
+}
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-family: "Satoshi", sans-serif, sans-serif;
+}
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  h1 {
+    font-size: 10px;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .button-entrena {
+    padding: 8px 16px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "satoshi";
+  src: url("/assets/fonts/Satoshi-Bold.otf") format("truetype");
+  font-weight: bold;
+}
 
 
 /*# sourceMappingURL=style.css.map */

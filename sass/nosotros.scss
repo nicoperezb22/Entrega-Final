@@ -1,22 +1,25 @@
+@use "fonts" as *;
+
+
 section {
-  font-family: inter;
+  font-family: $font-secondary;
 
   h2{
     font-size: 2rem;
     margin-bottom: 20px;
     text-align: center;
-    font-family: inter;
+    font-family: $font-primary; ;
+    color: #0099ff;
+    font-family: satoshi;
   }
 
   h1 {
     color: #0099ff;
-    font-family: satoshi;
+    font-family: $font-primary;
+    font-size: 35px;
   }
 
-  h2 {
-    color: #0099ff;
-    font-family: satoshi;
-  }
+  
 }
 
 @keyframes fadeIn {
@@ -35,7 +38,7 @@ section {
 .sedes-section {
   h3 {
     color: #0099ff;
-    font-family: satoshi;
+    font-family: $font-primary;
     text-decoration: underline;
     text-align: center;
     margin-top: 20px;
@@ -43,7 +46,7 @@ section {
 
   p {
     text-align: center;
-    font-family: inter;
+    font-family: $font-secondary;
     font-size: 1.2rem;
     margin-bottom: 20px;
   }
@@ -55,9 +58,10 @@ section {
   }
 
   button {
+  
     background-color: #0099ff;
     color: #ffffff;
-    font-family: satoshi;
+    font-family: $font-primary;
     font-size: 1rem;
   }
 }

@@ -1,11 +1,12 @@
-
+@use "fonts" as *;
+@use "button" as *;
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: $font-secondary, sans-serif;
 }
 
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Satoshi', sans-serif;
+    font-family: $font-primary, sans-serif;
 }
 
 .card{
@@ -25,4 +26,12 @@ h1, h2, h3, h4, h5, h6 {
         border-radius: 10px;
         transition: all 0.3s ease;
     }
+
+    button{
+        @extend .button-entrena;
+       
+    }
 }
+
+
+
