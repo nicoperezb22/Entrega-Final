@@ -1,5 +1,5 @@
-@use "fonts" as *;
-@use "color" as *;
+@use "../base/fonts" as *;
+@use "../base/color" as *;
 
 body {
     font-size: 16px;
@@ -49,7 +49,7 @@ body {
   }
   
   .wrapper-1 {
-    background-image: url(/assets/images/ba1cc2a9-c4f8-46ec-84a0-d12b3c7619b1.png);
+    background-image: url(/assets/images/fondoInicio/ba1cc2a9-c4f8-46ec-84a0-d12b3c7619b1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

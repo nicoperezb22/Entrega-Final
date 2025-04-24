@@ -1,6 +1,7 @@
-@use "fonts" as *;
-@use "button" as *;
-@use "color" as *;
+@use "../base/fonts" as *;
+@use "../base/color" as *;
+@use "../componentes/button" as *;
+
 body {
     font-family: $font-secondary, sans-serif;
 }

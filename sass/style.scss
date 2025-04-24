@@ -1,12 +1,21 @@
 
-@use 'fonts' as *;
-@use "color" as *;
-@use "index";
-@use "nosotros";
-@use "contacto";
-@use "clases";
-@use "planes";
-@use "button";
+// @use './base/fonts' as *;
+// @use "./base/color" as *;
+// @use "./pages/index";
+// @use "nosotros";
+// @use "contacto";
+// @use "clases";
+// @use "planes";
+// @use "button";
+
+@use './base/fonts' as *;
+@use './base/color' as *;
+@use './pages/index';
+@use './pages/nosotros';
+@use './pages/contacto';
+@use './pages/clases';
+@use './pages/planes';
+@use 'componentes/button';
 
 
 * {

@@ -1,7 +1,10 @@
-@use "fonts" as *;
-@use "color" as *;
+@use "../base/fonts" as *;
+@use "../base/color" as *;
+
+
 
 .button-entrena {
+
     padding: 10px 20px;
     font-size: 1rem;
     border: none;
